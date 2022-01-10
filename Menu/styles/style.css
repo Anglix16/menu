@@ -1,0 +1,25 @@
+li{
+    display: inline;
+    padding: 10px 20px;
+
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width: 1024px) {
+    #cuatro {
+      visibility: hidden;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    #tres {
+      visibility: hidden;
+    }
+  }
+
+@media only screen and (max-width: 480px) {
+    #dos {
+      visibility: hidden;
+    }
+  }
